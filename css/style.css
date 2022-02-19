@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color: #ce051d;
+    
+}
+.header .navbar-nav .nav-item{
+    
+    padding: 10px 20px;
+}
+.header .navbar-nav .nav-item .nav-link{
+    color: white;
+}
+.home{
+    background-color: #ce051d;
+}
+
+
+.home .home-content h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.home-img{
+    height: 600px;
+    width: auto;
+}
+.home button{
+    border: 2px solid black;
+    border-radius: 20px;
+   background-color: black;
+    color: white;
+}
+.products-card{
+    
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.products-card:hover{
+    transform: scale(1.05);
+}
+.ft-products{
+    background-color: #7E76F910;
+}
+.ft-products .ft-products-title h1{
+    font-weight: bold;
+}
+.ft-products .products-card{
+    cursor: pointer;
+    
+}
+.ft-products .cart-bg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ce051d;
+    background-color: black;
+}
+.ft-products .cart-bg:hover{
+    background-color: #ce051d;
+    color: white;
+    
+}
+.promotion img{
+    width: 100%;
+    height: auto;
+    background-position: cover;
+}
+.new-arrivals{
+   
+}
+.new-arrivals .products-card{
+    cursor: pointer;
+}
+.new-arrivals .cart-bg{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ce051d;
+    background-color: black;
+}
+.new-arrivals .cart-bg:hover{
+    background-color: #ce051d;
+    color: white;
+}
+.live-sales .live-sales-gp{
+   position: relative;
+}
+.live-sales .live-sales-img{
+
+    width: 100%;
+    height: auto;
+   
+}
+.live-sales .live-sales-content{
+  
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 10000;
+    
+}
+.live-sales .live-sales-content button{
+    border: 2px solid #ce051d;
+    border-radius: 20px;
+    background-color: #ce051d;
+    cursor: pointer;
+}
+.live-sales .live-sales-content button:hover{
+    background-color: black;
+    color: #ce051d;
+}
+.footer{
+    background-color: black;
+}
